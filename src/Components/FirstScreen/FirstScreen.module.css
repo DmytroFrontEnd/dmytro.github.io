@@ -1,0 +1,32 @@
+.typingText {
+  color: rgba(255, 255, 255, 0.918);
+  text-align: center;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 450%;
+}
+
+.firstScreenComponent {
+  height: 92vh;
+}
+
+@media screen and (max-width: 700px) {
+  .typingText {
+    font-size: 250%;
+    width: 90%;
+  }
+  .arrow {
+    font-size: 250%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .typingText {
+    font-size: 250%;
+    width: 90%;
+  }
+  .arrow {
+    font-size: 250%;
+  }
+}

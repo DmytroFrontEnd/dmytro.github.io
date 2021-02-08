@@ -1,0 +1,130 @@
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.imgCirc {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+.skill {
+  margin: 10%;
+}
+.skillName {
+  color: rgba(255, 255, 255, 0.918);
+  font-weight: 200;
+}
+.circ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loaders {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rectDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-self: center;
+  margin-top: 3%;
+}
+.circDiv {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.918);
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.other {
+  color: rgba(255, 255, 255, 0.918);
+}
+.other h3 {
+  font-size: 200%;
+  margin-bottom: 2%;
+  font-weight: 200;
+}
+.other li {
+  font-size: 135%;
+  line-height: 150%;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 700px) {
+  .loaders {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .circDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .rectDiv {
+    margin-top: 1%;
+  }
+  .img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+  }
+  .imgCirc {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+  }
+
+  .other h2 {
+    font-size: 130%;
+    margin-bottom: 2%;
+  }
+  .other li {
+    font-size: 115%;
+    line-height: 180%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .loaders {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .circDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .rectDiv {
+    margin-top: 1%;
+  }
+  .img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+  }
+  .imgCirc {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+  }
+
+  .other h2 {
+    font-size: 130%;
+    margin-bottom: 2%;
+  }
+  .other li {
+    font-size: 115%;
+    line-height: 180%;
+  }
+}

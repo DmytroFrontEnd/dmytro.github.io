@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: white;
+  margin: 0 auto;
+}
+.form label {
+  margin-top: 4%;
+}
+.inputs {
+  padding: 2%;
+  outline: none;
+  border: none;
+  font-size: 110%;
+  resize: none;
+}
+.submit {
+  background-color: rgb(240, 16, 16);
+  margin-top: 5%;
+  padding: 1%;
+  color: rgba(255, 255, 255, 0.918);
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: rgba(255, 255, 255, 0.918);
+  color: #171717;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.socialMedia a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.918);
+  cursor: pointer;
+  transition: 0.4s ease;
+  margin-top: 2%;
+}
+.socialMedia a:hover {
+  color: rgb(240, 16, 16);
+}
+@media screen and (max-width: 700px) {
+  .form {
+    width: 70%;
+  }
+  .socialMedia {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .form {
+    width: 70%;
+  }
+  .socialMedia {
+    flex-direction: column;
+    text-align: center;
+  }
+}
